@@ -1,7 +1,7 @@
 
 //* Concatenacion y templeString
 
-const nombre = 'Juan';
+const nombre = 'Gerardo';
 const email = 'correo@correo.com';
 
 //* Concatenación

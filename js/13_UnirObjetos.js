@@ -1,3 +1,5 @@
+//* Unir objetos
+
 const producto = {
     nombreProducto : "Monitor 20 Pulgadas",
     precio: 300,
@@ -9,7 +11,7 @@ const medidas = {
     medida: '1m'
 }
 
-const nuevoProducto = { ...producto, ...medidas };
+const nuevoProducto = { ...producto, ...medidas };//* Rest opereitor
 
 console.log(producto);
 console.log(nuevoProducto);

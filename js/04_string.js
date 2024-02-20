@@ -6,7 +6,7 @@ const nombre = 'Gerardo Vazquez';
 const email = 'correo@correo.com';
 
 //* length es para la extension
-console.log(tweet.length);
+console.log(tweet.length); //* cuenta las letras
 console.log(producto2);
 
 //* IndexOf (retorna posición)
