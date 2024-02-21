@@ -2,7 +2,8 @@
 
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo'];
 
-const carrito = [
+//* Arreglo de objetos
+const carrito = [ 
     { nombre: 'Monitor 20 Pulgadas', precio: 500 },
     { nombre: 'Televisión 50 Pulgadas', precio: 700 },
     { nombre: 'Tablet', precio: 300 },
@@ -21,24 +22,25 @@ meses.forEach(function(mes) {
 });
 
 //* Includes
-let resultado = meses.includes('Diciembre');
+let resultado = meses.includes('Diciembre');//* este elemento te dice si existe algo en el arreglo
 
-//* Some ideal para arreglo de objetos
+//* Some ideal para arreglo de objetos para saber si existe algo
 resultado = carrito.some(function(producto) {
     return producto.nombre === 'Celular PRO'
 })
 
-//* Reduce
+//* Reduce  para saber el precio total
 resultado = carrito.reduce(function(total, producto) {
     return total + producto.precio
 }, 0);
 
 
-//* Filter
+//* Filter   para saber si algo es mayor
 resultado = carrito.filter(function(producto) {
     return producto.precio > 400
 });
 
+//* Filter para mostrar algo que no sea lo que pides o lo que ocupas
 resultado = carrito.filter(function(producto) {
     return producto.nombre !== 'Celular'
 });

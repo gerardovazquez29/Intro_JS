@@ -1,4 +1,4 @@
-//* Async / await
+//* Async_Await
 
 function descargarNuevosClientes() {
     return new Promise( resolve => {

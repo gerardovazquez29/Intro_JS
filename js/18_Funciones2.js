@@ -1,3 +1,4 @@
+//* Funciones con parametros y argumentos
 
 function sumar(numero1 = 0, numero2 = 0) { //* numero1, 2 son parametros
     console.log(  numero2 + numero1);

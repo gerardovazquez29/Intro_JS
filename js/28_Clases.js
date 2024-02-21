@@ -1,4 +1,4 @@
-//* Classes
+//* Clases
 
 
 class Producto {

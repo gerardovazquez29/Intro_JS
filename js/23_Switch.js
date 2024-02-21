@@ -1,3 +1,5 @@
+//* Switch
+
 const metodoPago = 'efectivo';
 
 switch(metodoPago) {

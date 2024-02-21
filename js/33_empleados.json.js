@@ -1,3 +1,5 @@
+//* empleados.json
+
 async function obtenerEmpleados() {
 
     const archivo = 'empleados.json';

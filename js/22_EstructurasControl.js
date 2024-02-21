@@ -1,4 +1,5 @@
- 
+ //* Estructuras de control
+
 //*  const puntaje = 100;
 
 //*  if(puntaje !== 1000) { 

@@ -1,5 +1,6 @@
 
 //* Métodos de propiedad
+
 const reproductor = {
     reproducir : function(id) {
         console.log(`Reproduciendo Canción con el ID: ${id}`)
