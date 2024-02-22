@@ -7,7 +7,7 @@ resultado = (20 + 30) * 2;
 resultado = ( 600 + 600 ) * 1.05; 
 
 
-// console.log(resultado);
+console.log(resultado);
 
 //* Incrementos
 

@@ -8,5 +8,7 @@ const email = 'correo@correo.com';
 console.log("Nombre Cliente: " + nombre + " Email: " + email);
 
 
+
+
 //* Template Strings - String Literals
 console.log(`Nombre Cliente: ${nombre} Email: ${email}`);

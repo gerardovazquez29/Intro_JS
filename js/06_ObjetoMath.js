@@ -13,4 +13,5 @@ resultado = Math.max( 3, 5, 1, 8 , 2, 10 );
 resultado = Math.random();//* Genera numeros aleatorios en desimales
 resultado = Math.floor( Math.random() * 30 );//* genera numero aleatorio
 
+
 console.log(resultado);
