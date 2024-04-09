@@ -33,7 +33,8 @@ resultado = carrito.some(function(producto) {
 resultado = carrito.reduce(function(total, producto) {
     return total + producto.precio
 }, 0);
-
+//* en Arrow Funtion
+//* resultado = carrito.reduce((total, producto) => + producto.precio, 0); */
 
 //* Filter   para saber si algo es mayor
 resultado = carrito.filter(function(producto) {
@@ -46,5 +47,5 @@ resultado = carrito.filter(function(producto) {
 });
 
 
-
 console.log(resultado);
+

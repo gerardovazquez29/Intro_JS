@@ -5,10 +5,12 @@ const producto = {
     disponible: true
 }
 
-
+            //* sintaxis de punto sirven para acceder a un valor del objeto.
 //* console.log(producto.precio);
 //* console.log(producto.nombreProducto);
 //* console.log(producto.disponible);
+
+               //* Misma sintaxis para acceso
 //* console.log(producto["precio"]);
 
 //* Agregar nuevas propiedades
