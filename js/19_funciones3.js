@@ -9,6 +9,16 @@
 //* console.log(resultado);
 
 
+function sumar(n1, n2) {
+    return n1 + n2;
+}
+const resultado = sumar(5,6);
+console.log(resultado);
+
+
+//* ejemplos
+
+
 let total = 0;
 
 function agregarCarrito(precio) {
@@ -28,3 +38,4 @@ console.log(total);
 const totalAPagar = calcularImpuesto(total);
 
 console.log(`El total a pagar con impuestos es de: $${totalAPagar}`);
+

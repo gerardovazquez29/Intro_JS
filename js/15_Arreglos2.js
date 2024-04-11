@@ -22,7 +22,8 @@ meses.forEach(function(mes) {
 });
 
 //* Includes
-let resultado = meses.includes('Diciembre');//* este elemento te dice si existe algo en el arreglo
+let resultado = meses.includes('Diciembre');//* este elemento te dice si existe algo en el arreglo de tipo plano.
+
 
 //* Some ideal para arreglo de objetos para saber si existe algo
 resultado = carrito.some(function(producto) {
@@ -33,6 +34,7 @@ resultado = carrito.some(function(producto) {
 resultado = carrito.reduce(function(total, producto) {
     return total + producto.precio
 }, 0);
+
 //* en Arrow Funtion
 //* resultado = carrito.reduce((total, producto) => + producto.precio, 0); */
 
