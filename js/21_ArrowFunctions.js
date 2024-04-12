@@ -1,16 +1,36 @@
 
 //* Arrow Functions
 
+
+//* funcion antigua
+const sumar3 = function(n1, n2) {
+    console.log(n1 + n2);
+}
+sumar3(25, 15);    
+
+
+//* funcion flecha 
+const sumar4 = (n1, n2) => {
+    console.log(n1 + n2);
+}
+sumar4(25, 55);    
+
+
+//* funcion Nueva o funcion flecha
 const sumar2 = (n1, n2) => console.log( n1 + n2);
-sumar2(5, 10);
+sumar2(5, 10);       
+
+//* sintaxis basica de una funcion flecha
+const aprendiendo1 = () => {
+    console.log('');
+}
+aprendiendo1();
 
 
+//* funcion Flecha nueva
 const aprendiendo = tecnologia => console.log(`Aprendiendo ${tecnologia}`)
 
 aprendiendo('JavaScript');
-
-
-
 
 
 //* Array Methods

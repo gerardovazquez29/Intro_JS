@@ -1,7 +1,7 @@
 //* Promises
 
 const usuarioAutenticado = new Promise( (resolve, reject) => {
-    const auth = true;
+    const auth = false;
 
     if(auth) {
         resolve('Usuario Autenticado'); //* EL PROMISE SE CUMPLE

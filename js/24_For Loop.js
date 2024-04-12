@@ -1,19 +1,19 @@
 //* For Loop
 
-//* for( let i = 0; i < 10; i++ ) {
-//*     console.log(i);
-//* }
+for( let i = 0; i < 10; i++ ) {
+     console.log(i);
+ }
 
-//* for( let i = 1; i <= 100; i++ ) {
-//*     if( i % 2 === 0 ) {
-//*         console.log(`El Número ${i} es PAR`);
-//*     } else {
-//*         console.log(`El Número ${i} es IMPAR`);
-//*     }
-//* }
+for( let i = 1; i <= 20; i++ ) {
+     if( i % 2 === 0 ) {
+         console.log(`El Número ${i} es PAR`);
+     } else {
+         console.log(`El Número ${i} es IMPAR`);
+     }
+ }
 
 const carrito = [
-    { nombre: 'Monitor 20 Pulgadas', precio: 500 },
+    { nombre: 'Monitor 20 Pulgadas', precio: 500 },  //* areglo con for
     { nombre: 'Televisión 50 Pulgadas', precio: 700 },
     { nombre: 'Tablet', precio: 300 },
     { nombre: 'Audifonos', precio: 200 },
@@ -31,14 +31,14 @@ for(let i = 0; i < carrito.length; i++ ) {
 
 //* While Loop
 
-//* let i = 20; // Indice
+let j = 20; //* Indice
 
-//* while(i < 10) { //* Condición
+while(j < 10) { //* Condición
 
-//*     console.log('Desde el while loop');
+     console.log('Desde el while loop'); //* primero evalua antes de ejecutar.
 
-//*     i++;  // Incremento
-//* }
+     j++;  //* Incremento
+ }
 
 
 
@@ -46,8 +46,9 @@ for(let i = 0; i < carrito.length; i++ ) {
 
 let i = 100;
 
-do {
+do {            //* el do while se ejecuta una vez y despues evalua
     console.log(i);
 
     i++;
 } while( i < 10);
+

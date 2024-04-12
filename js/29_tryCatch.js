@@ -1,5 +1,5 @@
 //* try catch
-
+//* funciona para probar errores y siga funcionando el programa
 const numero1 = 20;
 const numero3 = 30;
 
@@ -13,3 +13,4 @@ try {
 }
 
 console.log(numero3);
+

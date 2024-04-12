@@ -22,13 +22,15 @@ function descargarUltimosPedidos() {
 
 async function app() {
    try {
+    //* con este modo no es conveniente por que las dos funciones se ploquean asta que la primera se complete.
+
     //*    const clientes = await descargarNuevosClientes();
     //*    const pedidos = await descargarUltimosPedidos();
     //*    console.log(clientes);
     //*    console.log(pedidos);
 
     const resultado = await Promise.all([ descargarNuevosClientes(), descargarUltimosPedidos() ]);
-    console.log(resultado[0]);
+    console.log(resultado[0]);      //* las dos funciones se ejecutan al mismo tiempo
     console.log(resultado[1]);
    } catch (error) {
        console.log(error);
