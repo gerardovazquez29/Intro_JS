@@ -1,6 +1,6 @@
 variables
  definir (nombre) como tipo
- numericas - caracter - lpgicas - real
+ numericas - caracter - logicas - real
  
  diferencias
 constantes = no cambia su valor
